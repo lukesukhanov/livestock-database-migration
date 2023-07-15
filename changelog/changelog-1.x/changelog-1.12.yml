@@ -1,0 +1,1676 @@
+databaseChangeLog:
+  - changeSet:
+      id: 40
+      author: lukesukhanov
+      changes:
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: product_name
+                  value: Овцы Ярки Овцематки Романовская порода племенные
+              - column:
+                  name: description
+                  value: >-
+                    Сельхозпредприятие выращивает и реализует в год до 1000 голов Чистопородных 
+                    Племенных ярок, овцематок и баранов Романовской породы овец.
+              - column:
+                  name: quantity
+                  value: 100
+              - column:
+                  name: price
+                  value: 12900
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/1.jpg
+              - column:
+                  name: product_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 2
+              - column:
+                  name: product_name
+                  value: Овцы бараны
+              - column:
+                  name: description
+                  value: Продаю баранов и овец
+              - column:
+                  name: quantity
+                  value: 57
+              - column:
+                  name: price
+                  value: 10500
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/2.jpg
+              - column:
+                  name: product_id
+                  value: 2
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 3
+              - column:
+                  name: product_name
+                  value: Бараны на Курбан
+              - column:
+                  name: description
+                  value: >-
+                    Всем ассаляму алейкум братья у нас есть хороший бараны 
+                    на курбан-байрам всем с праздником
+              - column:
+                  name: quantity
+                  value: 20
+              - column:
+                  name: price
+                  value: 9300
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/3.jpg
+              - column:
+                  name: product_id
+                  value: 3
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 4
+              - column:
+                  name: product_name
+                  value: Овцы на продажу
+              - column:
+                  name: description
+                  value: >-
+                    Продаются : переярка и матка на развод , бараны на КУРБАН и вайлахи 
+                    на мясо ,молодые ягнята на мясо.
+              - column:
+                  name: quantity
+                  value: 34
+              - column:
+                  name: price
+                  value: 10000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/4.jpg
+              - column:
+                  name: product_id
+                  value: 4
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 5
+              - column:
+                  name: product_name
+                  value: Овци Барани
+              - column:
+                  name: description
+                  value: >-
+                    Продаю молодых баранов стада 250 голов все молодые все курдючные ,
+                    есть от 20 кг до 80 кг есть доставка
+              - column:
+                  name: quantity
+                  value: 250
+              - column:
+                  name: price
+                  value: 10700
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/5.jpg
+              - column:
+                  name: product_id
+                  value: 5
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 6
+              - column:
+                  name: product_name
+                  value: Бараны живым весом
+              - column:
+                  name: description
+                  value: Продаю баранов молодых живым весом есть место порезать и разделать
+              - column:
+                  name: quantity
+                  value: 20
+              - column:
+                  name: price
+                  value: 10700
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/6.jpg
+              - column:
+                  name: product_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 7
+              - column:
+                  name: product_name
+                  value: Продаются ягнята породы "Меринос"
+              - column:
+                  name: description
+                  value: Продаются ягнята 6-7 месяцев.
+              - column:
+                  name: quantity
+                  value: 50
+              - column:
+                  name: price
+                  value: 10200
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/7.jpg
+              - column:
+                  name: product_id
+                  value: 7
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 8
+              - column:
+                  name: product_name
+                  value: Овцы
+              - column:
+                  name: description
+                  value: В продаже бараны овцы
+              - column:
+                  name: quantity
+                  value: 30
+              - column:
+                  name: price
+                  value: 10000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/8.jpg
+              - column:
+                  name: product_id
+                  value: 8
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 9
+              - column:
+                  name: product_name
+                  value: Бараны
+              - column:
+                  name: description
+                  value: 85 голов
+              - column:
+                  name: quantity
+                  value: 85
+              - column:
+                  name: price
+                  value: 10000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/9.jpg
+              - column:
+                  name: product_id
+                  value: 9
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 10
+              - column:
+                  name: product_name
+                  value: Овца
+              - column:
+                  name: description
+                  value: Продам овцу живьём. На Курбан.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 8000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 1
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/sheeps/10.jpg
+              - column:
+                  name: product_id
+                  value: 10
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 11
+              - column:
+                  name: product_name
+                  value: Корова стельная дойная
+              - column:
+                  name: description
+                  value: >-
+                    Продаётся корова будет 3 отёл, стелена, причина продажи продают Родители устали.
+                    Коровка зарегестрирована в меркурие все онализы брали уже в этом году, спокойная, 
+                    от неё есть тёлочка чёрная 6 месяцев 30т
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 115000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/1.jpg
+              - column:
+                  name: product_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 12
+              - column:
+                  name: product_name
+                  value: Бык Лимузин
+              - column:
+                  name: description
+                  value: Возврат 3 года на племя.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 210000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/2.jpg
+              - column:
+                  name: product_id
+                  value: 12
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 13
+              - column:
+                  name: product_name
+                  value: Коровы
+              - column:
+                  name: description
+                  value: Мясного направления
+              - column:
+                  name: quantity
+                  value: 7
+              - column:
+                  name: price
+                  value: 60000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/3.jpg
+              - column:
+                  name: product_id
+                  value: 13
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 14
+              - column:
+                  name: product_name
+                  value: Корова дойная
+              - column:
+                  name: description
+                  value: Дойная, в январе отелилась
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 55000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/4.jpg
+              - column:
+                  name: product_id
+                  value: 14
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 15
+              - column:
+                  name: product_name
+                  value: Корова
+              - column:
+                  name: description
+                  value: Продается дойная корова , дает от 30/32 литров молока
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 100000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/5.jpg
+              - column:
+                  name: product_id
+                  value: 15
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 16
+              - column:
+                  name: product_name
+                  value: Быки
+              - column:
+                  name: description
+                  value: 16 голов все бычки. Помес сементалкой.
+              - column:
+                  name: quantity
+                  value: 16
+              - column:
+                  name: price
+                  value: 60000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/6.jpg
+              - column:
+                  name: product_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 17
+              - column:
+                  name: product_name
+                  value: Корова
+              - column:
+                  name: description
+                  value: 2 отëла. Спокойная. Доиться руками. Покрылась в апреле
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 50000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/7.jpg
+              - column:
+                  name: product_id
+                  value: 17
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 18
+              - column:
+                  name: product_name
+                  value: Бык год и четыре месяца
+              - column:
+                  name: description
+                  value: Продается молодой упитанный бык(год и четыре месяца), на мясо
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 75000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/8.jpg
+              - column:
+                  name: product_id
+                  value: 18
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 19
+              - column:
+                  name: product_name
+                  value: Быки и телята
+              - column:
+                  name: description
+                  value: 3 быка по 1 году, и 2 бычка и телочка,1 бычку 4 месяца ,другому месяц,тёлочке 3 недели
+              - column:
+                  name: quantity
+                  value: 6
+              - column:
+                  name: price
+                  value: 60000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/9.jpg
+              - column:
+                  name: product_id
+                  value: 19
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 20
+              - column:
+                  name: product_name
+                  value: Бык
+              - column:
+                  name: description
+                  value: >-
+                    Новая партия, 10 голов бычки. С возростом 1-1.5 года. 
+                    4 абирдин, 6 голов казахский белоголовый.
+              - column:
+                  name: quantity
+                  value: 10
+              - column:
+                  name: price
+                  value: 75000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 6
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/cows/10.jpg
+              - column:
+                  name: product_id
+                  value: 20
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 21
+              - column:
+                  name: product_name
+                  value: Дюрок свинья
+              - column:
+                  name: description
+                  value: Свинья дюрок вес около 150 кг готова к спариванию
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 25000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/pigs/1.jpg
+              - column:
+                  name: product_id
+                  value: 21
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 22
+              - column:
+                  name: product_name
+                  value: Свиньи
+              - column:
+                  name: description
+                  value: Поросенок живым весом 7 месяцев срочно потом цена будет выше не где таких цен нету
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 8000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/pigs/2.jpg
+              - column:
+                  name: product_id
+                  value: 22
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 23
+              - column:
+                  name: product_name
+                  value: Свинья
+              - column:
+                  name: description
+                  value: Продам свинью супоросную возраст 1.5года живым весом под 150кг.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 27000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/pigs/3.jpg
+              - column:
+                  name: product_id
+                  value: 23
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 24
+              - column:
+                  name: product_name
+                  value: Супоросная свинья
+              - column:
+                  name: description
+                  value: >-
+                    Покрыта 2 месяца. Будет второй опорос. Родила 14 поросят , всех выкормила ,
+                    заболеваний никаких не выявлено. Здоровая , ласковая .
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 52000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/pigs/4.jpg
+              - column:
+                  name: product_id
+                  value: 24
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 25
+              - column:
+                  name: product_name
+                  value: Продам свинью
+              - column:
+                  name: description
+                  value: продам свинью, выращенную в домашних условиях без гормонов роста и добавок .Есть поросята
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 15500
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/pigs/5.jpg
+              - column:
+                  name: product_id
+                  value: 25
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 26
+              - column:
+                  name: product_name
+                  value: Хряк
+              - column:
+                  name: description
+                  value: >-
+                    Продается чистокровный хряк на племя.Венгерской пуховой мангалицы. Срочно!!! 
+                    Возраст 2года. Отличный производитель,ваши свинки будут довольны. Живым весом 180 кг.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 19000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/pigs/6.jpg
+              - column:
+                  name: product_id
+                  value: 26
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 27
+              - column:
+                  name: product_name
+                  value: Хряк
+              - column:
+                  name: description
+                  value: Есть хорошая порода семь месяцев срочные деньги нужно
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 13000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/pigs/7.jpg
+              - column:
+                  name: product_id
+                  value: 27
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 28
+              - column:
+                  name: product_name
+                  value: Хряк
+              - column:
+                  name: description
+                  value: Продается хряк на племя или мясо. Примерный вес 200 кг+. Возраст 2года
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 18000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 11
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/pigs/8.jpg
+              - column:
+                  name: product_id
+                  value: 28
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 29
+              - column:
+                  name: product_name
+                  value: Лошадь, жеребец
+              - column:
+                  name: description
+                  value: >-
+                    Продаём любимца нашей конюшнию. Рос в одних руках, парень статный и красивый, 
+                    ещё детство в попе играет.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 200000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/horses/1.jpg
+              - column:
+                  name: product_id
+                  value: 29
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 30
+              - column:
+                  name: product_name
+                  value: Лошадь пони
+              - column:
+                  name: description
+                  value: Продается жеребчик пони срочно
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 30000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/horses/2.jpg
+              - column:
+                  name: product_id
+                  value: 30
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 31
+              - column:
+                  name: product_name
+                  value: Лошади
+              - column:
+                  name: description
+                  value: >-
+                    Продам лошадей. Кобыла жеребая, выжеребка конец августа, заезженна в круг, 
+                    отличный пастух, на переступи. Жеребчик 1,5 года, кобыла 1,5 года.
+              - column:
+                  name: quantity
+                  value: 2
+              - column:
+                  name: price
+                  value: 50000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/horses/3.jpg
+              - column:
+                  name: product_id
+                  value: 31
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 32
+              - column:
+                  name: product_name
+                  value: Лошади
+              - column:
+                  name: description
+                  value: >-
+                    Продаётся конь хоть под воду , хоть под воеводу. Жеребец орловских кровей 7 лет. 
+                    Заезжен в круг. Без доков. Рост в холке примерно 160 см. Цена 200т.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 200000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/horses/4.jpg
+              - column:
+                  name: product_id
+                  value: 32
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 33
+              - column:
+                  name: product_name
+                  value: Лошадь 2г
+              - column:
+                  name: description
+                  value: лошадь сытая 120тыс
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 120000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/horses/5.jpg
+              - column:
+                  name: product_id
+                  value: 33
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 34
+              - column:
+                  name: product_name
+                  value: Лошади
+              - column:
+                  name: description
+                  value: Жеребец 1,5 года , 65тысяч
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 65000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/horses/6.jpg
+              - column:
+                  name: product_id
+                  value: 34
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 35
+              - column:
+                  name: product_name
+                  value: Лошадь с жеребенком
+              - column:
+                  name: description
+                  value: Обучена лошадь 4 года, жеребенок 2 месяца. Без обмена
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 120000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/horses/7.jpg
+              - column:
+                  name: product_id
+                  value: 35
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 36
+              - column:
+                  name: product_name
+                  value: Лошадь Андалузская (рre)
+              - column:
+                  name: description
+                  value: >-
+                    На продажу предлагается серый (постепенно белеет, светлеет) испанский (PRE, андалуз) 
+                    мерин 2016 г.р., 165см в/х, на эффектных движениях. Без проблем со здоровьем. 
+                    Обладатель длинной, густой гривы. Ручной котёнок, добронравный, в меру импульсный. 
+                    Заезжен под верх и в беговую упряжь.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 750000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 16
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/horses/8.jpg
+              - column:
+                  name: product_id
+                  value: 36
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 37
+              - column:
+                  name: product_name
+                  value: Козел зааненский
+              - column:
+                  name: description
+                  value: >-
+                    Продам на племя козла . Возраст 3 года . Характер отличный достаточно 
+                    спокойный своё дело исполняет.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 12000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 21
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/goats/1.jpg
+              - column:
+                  name: product_id
+                  value: 37
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 38
+              - column:
+                  name: product_name
+                  value: Козы
+              - column:
+                  name: description
+                  value: Продам коз, они дойные дают 4,5 л
+              - column:
+                  name: quantity
+                  value: 5
+              - column:
+                  name: price
+                  value: 4500
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 21
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/goats/2.jpg
+              - column:
+                  name: product_id
+                  value: 38
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 39
+              - column:
+                  name: product_name
+                  value: Козы
+              - column:
+                  name: description
+                  value: Здравствуйте, срочная продажа коз
+              - column:
+                  name: quantity
+                  value: 5
+              - column:
+                  name: price
+                  value: 1000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 21
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/goats/3.jpg
+              - column:
+                  name: product_id
+                  value: 39
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 40
+              - column:
+                  name: product_name
+                  value: Козы
+              - column:
+                  name: description
+                  value: >-
+                    Продам козу дойную и козочку на мясо. Окот был 13 апреля 2023 года. 
+                    Козочка ещё под матерью, ест сено и зерно.
+              - column:
+                  name: quantity
+                  value: 2
+              - column:
+                  name: price
+                  value: 3500
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 21
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/goats/4.jpg
+              - column:
+                  name: product_id
+                  value: 40
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 41
+              - column:
+                  name: product_name
+                  value: Козы
+              - column:
+                  name: description
+                  value: Продам 9 козлят, 6 девочек и 3 мальчика. Возраст 4 месяца, молочной породы.
+              - column:
+                  name: quantity
+                  value: 2
+              - column:
+                  name: price
+                  value: 2000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 21
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/goats/5.jpg
+              - column:
+                  name: product_id
+                  value: 41
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 42
+              - column:
+                  name: product_name
+                  value: Козы, козлы
+              - column:
+                  name: description
+                  value: >-
+                    Продам молод дойную козу (2 окота), дает по 3 л молока при 2-х разовой дойки. 
+                    Порода мама зааненская, пап альпиец, цена 7 т.р. Козлята 5 месяцев, 
+                    5 козликов, можно на племя и 1 козочка.
+              - column:
+                  name: quantity
+                  value: 6
+              - column:
+                  name: price
+                  value: 3000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 21
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/goats/6.jpg
+              - column:
+                  name: product_id
+                  value: 42
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  value: 43
+              - column:
+                  name: product_name
+                  value: Козел на племя
+              - column:
+                  name: description
+                  value: >-
+                    неспешно предлагается к продаже англо-нубийский козел 4х лет. отличный производитель. 
+                    осенью 22г за месяц не напрягаясь покрыл 15 коз и все дали двойни. 
+                    50% козлят получается комолыми.
+              - column:
+                  name: quantity
+                  value: 1
+              - column:
+                  name: price
+                  value: 15000
+              - column:
+                  name: currency
+                  value: RUB
+              - column:
+                  name: category_id
+                  value: 21
+        - insert:
+            dbms: 'postgresql'
+            schemaName: livestock
+            tableName: product_image
+            columns:
+              - column:
+                  name: image
+                  type: longblob
+                  valueBlobFile: ../static/product-images/goats/7.jpg
+              - column:
+                  name: product_id
+                  value: 43
